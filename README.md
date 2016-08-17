@@ -8,7 +8,6 @@ Angular 2 RC5 and Node js Easy Starter
     - or grab the installer from [the node.js website](http://nodejs.org/)
 - [NPM](https://www.npmjs.org/) - this comes with Node.js
 - [nodemon](http://nodemon.io) - automatically reload node server, however not necessary.
-- Also going to need to get a stripe account to grab your api key and publisher key.
 
 ## Initial Setup
 - Grab the source
