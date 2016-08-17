@@ -5,11 +5,11 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
-var secret = require('./config/secret');
+// var secret = require('./config/secret');
 var appRoutes = require('./routes/app');
 
 var app = express();
-mongoose.connect(secret.database);
+// mongoose.connect(secret.database);
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
